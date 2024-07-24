@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice 3</title>
+    <link rel="stylesheet" href="practice-3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" type="text/html" href="aos-by-red.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  </head>
+  <body>
+    <div class="main-box">
+      <input type="checkbox" id="check-1">
+      <div class="wrapper">
+        <div class="title"><span>Sign in</span></div>
+        <form action="#">
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Email or Phone" required>
+          </div>
+          <div class="row">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" id="password" required>
+            <img src="eye-close.png" alt="eye" class="eye" id="eyeIcon">
+          </div>
+          <div class="pass"><a href="#">Forgot Password?</a></div>
+          <div class="row button">
+            <input type="submit" value="Login">
+          </div>
+          <div class="signup-link" style="color: #fff;">Not a member? <a href="#"> SIGN UP NOW </a></div>
+        </form>
+      </div>
+      <input type="checkbox" id="check">
+      <div class="sidebar-menu">
+        <div class="menu">
+          <ul>
+            <li class="side-btn"><a href="#"><i class="fas fa-home"></i>
+              Home</a>
+            </li>
+            <li class="side-btn"><a href="#"><i class="fas fa-sliders-h"></i>
+              Services</a>
+            </li>
+            <li class="side-btn"><a href="#"><i class="fas fa-stream"></i>
+              Portfolio</a>
+            </li>
+            <li class="side-btn"><a href="#"><i class="fas fa-phone-volume"></i>
+              Contact</a>
+            </li>
+            <li class="side-btn"><a href="#"><i class="fas fa-question-circle"></i>
+              About</a>
+            </li>
+            <li class="side-btn"><a href="#"><i class="fas fa-comments"></i>
+              Feedback</a></li>
+          </ul>
+        </div>
+        <div class="social_media">
+          <ul>
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-youtube"></i></a>
+          </ul>
+        </div>
+      </div>
+      <nav>
+        <div class="left-menu">
+          <ul class="nav-ul">
+            <div class="btn-one">
+              <label for="check">
+                <i class="fas fa-bars"></i>
+              </label>
+            </div>
+              <a class="final-logo" href="#">Welcome</a>
+         </ul>
+        </div>
+        <div class="right-menu">
+            <ul class="nav-ul">
+              <li class="nav-btn"><a  href="#">Home</a></li>
+              <li class="nav-btn"><a  href="#">Services</a></li>
+              <li class="nav-btn"><a  href="#">Contact</a></li>
+              <li class="nav-btn"><a  href="#">About</a></li>
+              <li class="nav-btn"><a  class="feed" href="#">Feedback</a></li>
+              <div class="profile">
+                <label for="check-1">
+                  <i class="fas fa-user"></i>
+                </label>
+              </div>
+            </ul>
+        </div>
+      </nav>
+      <div class="all-center">
+          <div class="center">
+            <div class="title">My personal Website</div>
+            <div class="sub-title">With HTML & CSS Only</div>
+            <div class="btns">
+              <button>Portfolio</button>
+              <button>Details</button>
+            </div>
+          </div>
+        <div class="center-2" data-aos="fade-left" >
+            <img class="img-center" src="/img/image-3.jpg">
+          <span class="text">This picture represents a lot for one picture its astonishing to see someone makng a masterpiece like this its just a blessing to ones eyes to see this
+          </span>
+        </div>
+          <div class="center-2" data-aos="fade-right">
+            <img class="img-center" src="/img/image-4.jpg">
+          <span class="text">This picture represents a lot for one picture its astonishing to see someone makng a masterpiece like this its just a blessing to ones eyes to see this
+          </span>
+          </div>
+          <div class="center-2" data-aos="fade-left">
+            <img class="img-center" src="/img/image-2.jpg">
+          <span class="text">This picture represents a lot for one picture its astonishing to see someone makng a masterpiece like this its just a blessing to ones eyes to see this
+          </span>
+          </div>
+      </div>
+    </div>
+    <script src="practice3.js"></script>
+    <script   src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
