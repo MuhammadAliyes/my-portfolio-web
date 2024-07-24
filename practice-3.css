@@ -3,7 +3,7 @@
 
 body{
   position: relative;
-  background: url('/img/imgage.jpg') right no-repeat;
+  background: url('imgage.jpg') right no-repeat;
   background-size: cover;
   height: 275vw;
   background-repeat: no-repeat; 
