@@ -266,6 +266,12 @@ ul .nav-btn a{
   display: none;
 }
 
+@media screen and (max-width: 490px){
+  .wrapper{
+    width: 90%;
+  }
+}
+
 .wrapper .title {
   margin-top: 50px;
    text-align: center;
